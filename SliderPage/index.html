@@ -1,0 +1,155 @@
+<!---------------------------------------------------------
+-- Developed by - Snigdha Prakash
+-- Slider screens
+----------------------------------------------------------->
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/carousal.js"></script>
+	
+	
+</head>
+<body>
+<div id="header">
+	<div class="col-sm-5 col-md-6 header-1">
+		Heading
+	</div>
+	<div class="col-sm-5 col-md-6 header-2">
+		<a href="" data-toggle="modal" data-target="#bar"><i class="fa fa-bars fa-2x"></i></a>
+		<a href="" data-toggle="modal" data-target="#cdDep"><i class="fa fa-info-circle fa-2x"></i></a>
+  <!-- Modal for bars -->
+	  <div class="modal fade" id="bar" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Know the Team</h4>
+			</div>
+			<div class="modal-body">
+			  <p>Some text in the modal.</p>
+			</div>
+		  </div>
+		  
+		</div>
+	</div>
+  <!-- Modal for cdDep -->
+	  <div class="modal fade" id="cdDep" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">About</h4>
+			</div>
+			<div class="modal-body">
+			  <p>Some text in the modal.</p>
+			</div>
+		  </div>
+		  
+		</div>
+	</div>
+	</div>
+</div>
+<div class="slider">
+	<div class="rslide">
+		<img src="images/bg2.jpg" alt="">
+		<div class="caption">
+			<div class="caption-1" id="trnstn">
+				<a href="#sec-slider2" id="sec-tools1" class="sec-tools">
+				<div class="caption1-active"><!--<i class="fa fa-chevron-circle-right" id="icon"></i>--><p id="names">XYZ</p></div>
+				<p id="summary">Some text</p></a>
+			</div>
+			<div class="caption-2" id="trnstn">
+				<a href="#sec-slider3" id="sec-tools2" class="sec-tools">
+				<div class="caption2-active"><p id="names">ABC</p></div>
+				<p id="summary">Some text</p></a>
+			</div>
+			<div class="caption-3" id="trnstn">
+				<a href="#sec-slider4" id="sec-tools3" class="sec-tools">
+				<div class="caption3-active"><p id="names">MNO</p></div>
+				<p id="summary">some text</p></a>
+			</div>
+			<div class="caption-4" id="trnstn">
+				<a href="#sec-slider5" id="sec-tools4" class="sec-tools">
+				<div class="caption4-active"><p id="names">DEF</p></div>
+				<p id="summary">Some text</p></a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+<div class="slider2" id="sec-slider2">
+	<div class="tools">
+		<div class="tool-det">
+			<div class="col-md-10 span1_of_1" style="top: -10;">
+						<h3>Details of section</h3>
+						<p>sub details.</p>
+			</div>
+		</div>
+
+		<div class="tool-exp">
+			<div class="tool-wrapper">
+				
+			</div>
+		</div>
+	
+	</div>
+</div>
+
+<div class="slider3" id="sec-slider3">
+	<div class="tools">
+		<div class="devops-1">
+			<div class="col-md-10 span1_of_2" style="width: 100%">
+				<h3>Details of second section</h3>
+				<p>Sub details.</p>
+			</div>
+		</div>
+		<div class="devops-2">
+			<center><p>Some Content </p></center>
+		</div>
+	</div>
+</div>
+
+<div class="slider4" id="sec-slider4">
+	<div class="tools">
+		<div class="process-1">
+			<div class="col-md-10 span1_of_3" style="width: 100%;">
+						<h3>A quick look on the process Documents</h3>
+						<p>Here are all the processes that you need to know.</p>
+			</div>
+		</div>
+	<div class="row">
+		<div class="MultiCarousel" data-items="1,2,3,4,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+            
+        </div>
+	</div>
+	
+	</div>
+</div>
+<div class="slider5" id="sec-slider5">
+	<div class="tools">
+		<div class="km1">
+			<div class="col-sm-5 col-md-6 col-lg-4 km1-1">
+				<i class="fa fa-graduation-cap fa-2x"></i>
+			</div>
+			<div class="col-sm-5 col-md-4 col-lg-6 km1-2">
+				Know the developer...
+			</div>
+			<div class="col-sm-9 col-md-6 col-lg-8 km1-2">
+				<button class="km1-2btn"><i><a href="https://github.com/Snigdha171/" target="_blank">Click here</a></i></button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
