@@ -10,3 +10,5 @@ There are 4 branches created here -
 Master branch contains the following files - 
 
 1. WebPage1 - This page contains a header and a side bar with contact icon on the top bar. All the styling are done in custom.css file present in the css folder.
+
+2. SliderPage - New folder created which contains the sources needed to create a slider web page
